@@ -122,6 +122,9 @@ html {
     }
 
     html {
-    font-size: 10px;
-}
+        font-size: 10px;
+    }
+    .main-component-container {
+        padding: 2rem;
+    }
 }
