@@ -120,4 +120,8 @@ html {
     .right-text-container {
         display: none;
     }
+
+    html {
+    font-size: 10px;
+}
 }
