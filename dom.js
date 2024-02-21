@@ -3,7 +3,9 @@ let menuCards = document.querySelectorAll(".flyIn");
 let parent = document.getElementById("parent");
 
 
-parent.addEventListener("click", function (event){
+parent.addEventListener("click", flyinMenuFunction)
+
+function flyinMenuFunction(event){
     let userTarget = event.target;
     let flyinMenu = userTarget.parentElement.parentElement.lastElementChild;
 
@@ -16,8 +18,7 @@ parent.addEventListener("click", function (event){
         returnAll()
         flyinMenu.classList.replace("fly-in-menu-new", "fly-in-menu")
     }
-})
-
+} 
 function returnAll() {
    menuCards.forEach((card) => {
     card.classList.remove("fly-in-menu-new");
