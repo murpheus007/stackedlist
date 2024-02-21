@@ -2,8 +2,6 @@ let icons = document.querySelectorAll(".icon");
 let menuCards = document.querySelectorAll(".flyIn");
 let parent = document.getElementById("parent");
 
-let parent = document.getElementById("parent");
-
 if (parent) {
     parent.addEventListener("click", flyinMenuFunction);
 } else {
