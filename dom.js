@@ -3,7 +3,7 @@ let menuCards = document.querySelectorAll(".flyIn");
 let parent = document.getElementById("parent");
 
 
-parent.addEventListener("click", (event)=>{
+parent.addEventListener("click", function (event){
     let userTarget = event.target;
     let flyinMenu = userTarget.parentElement.parentElement.lastElementChild;
 
